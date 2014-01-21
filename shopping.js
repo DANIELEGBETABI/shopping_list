@@ -28,7 +28,3 @@ $(document).ready(function() {
         }
     });
 });
-
-/*Checkbox Strikethrough Item Text */
-    $('input.check').change(function() {
-        $(this).siblings('.item').toggleClass('strike');
